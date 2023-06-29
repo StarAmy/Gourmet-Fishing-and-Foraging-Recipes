@@ -1,0 +1,51 @@
+{
+	"Name": "Lobster Roll",
+	"Description": "A coastal specialty packed full of shellfish meat.",
+	"Category": "Cooking",
+	"Edibility": 38,
+	"Price": 470,
+	"IsColored": false,
+    "EdibleBuffs": 
+         {
+            "Farming": 0,
+            "Fishing": 1,
+            "Mining": 0,
+            "Luck": 1,
+            "Duration": 0,
+            "Foraging": 0,
+            "MaxStamina": 0,
+            "MagnetRadius": 0,
+            "Speed": 0,
+            "Defense": 0,
+            "Attack": 0,
+        },
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Bread",
+            "Count": 1,
+        },
+        {
+            "Object": "Lobster",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Mayonnaise",
+            "Count": 1,
+        }, 
+     ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 1200,  
+  },
+     "GiftTastes":
+    {
+        "Love": [ "Elliott" ],
+        "Like": [ "Demetrius", "Linus", "Leo", "Willy", "Pam", "Sebastian"],
+        "Neutral": [ "Maru", "Krobus", "Leah", "Harvey", "Robin", "Wizard", "Gus", "Jodi", "Sam", "Emily", "Alex", "Caroline", "Clint", "Dwarf", "George", "Jas", "Kent", "Lewis", "Marnie", "Penny", "Sandy", "Shane", "Vincent", "Abigail" ],
+        "Dislike": [ "Pierre", "Evelyn", "Haley" ],
+    },
+}

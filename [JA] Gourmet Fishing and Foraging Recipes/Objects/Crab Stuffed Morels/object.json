@@ -1,0 +1,51 @@
+{
+	"Name": "Crab Stuffed Morels",
+	"Description": "An alternative surf and turf.",
+	"Category": "Cooking",
+	"Edibility": 32,
+	"Price": 410,
+	"IsColored": false,
+    "EdibleBuffs": 
+         {
+            "Farming": 0,
+            "Fishing": 1,
+            "Mining": 0,
+            "Luck": 0,
+            "Duration": 0,
+            "Foraging": 1,
+            "MaxStamina": 0,
+            "MagnetRadius": 0,
+            "Speed": 0,
+            "Defense": 1,
+            "Attack": 0,
+        },
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Crab",
+            "Count": 1,
+        },
+        {
+            "Object": "Bread",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Morel",
+            "Count": 1,
+        }, 
+     ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 1200,  
+  },
+     "GiftTastes":
+    {
+        "Love": [ "Linus" ],
+        "Like": [ "Demetrius", "Elliott", "Willy", "Pam", "Sebastian", "Leah", "Harvey" ],
+        "Neutral": [ "Maru", "Krobus", "Robin", "Wizard", "Gus", "Jodi", "Sam", "Emily", "Alex", "Caroline", "Clint", "Dwarf", "George", "Jas", "Kent", "Lewis", "Marnie", "Penny", "Sandy", "Shane", "Vincent", "Abigail" ],
+        "Dislike": ["Pierre", "Evelyn", "Haley", "Leo" ],
+    },
+}

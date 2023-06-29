@@ -1,0 +1,59 @@
+{
+	"Name": "Fiddlehead and Mushroom Tart",
+	"Description": "Highlight your foraging skills.",
+	"Category": "Cooking",
+	"Edibility": 46,
+	"Price": 565,
+	"IsColored": false,
+    "EdibleBuffs": 
+         {
+            "Farming": 0,
+            "Fishing": 0,
+            "Mining": 0,
+            "Luck": 0,
+            "Duration": 0,
+            "Foraging": 2,
+            "MaxStamina": 0,
+            "MagnetRadius": 0,
+            "Speed": 0,
+            "Defense": 0,
+            "Attack": 0,
+        },
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Wheat Flour",
+            "Count": 1,
+        },
+        {
+            "Object": -5,
+            "Count": 1,
+        }, 
+        {
+            "Object": -6,
+            "Count": 1,
+        }, 
+        {
+            "Object": "Fiddlehead Fern",
+            "Count": 1,
+        },
+        {
+            "Object": "Morel",
+            "Count": 1,
+        }, 
+     ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 1200,  
+  },
+     "GiftTastes":
+    {
+        "Love": [ "Leah", "Linus", "Harvey" ],
+        "Like": [  "Alex", "Demetrius", "Emily", "Evelyn", "Clint", "George", "Gus", "Kent", "Lewis", "Marnie", "Pam", "Penny", "Robin", "Maru" ],
+        "Neutral": [ "Wizard", "Jodi", "Krobus", "Leo", "Willy", "Caroline", "Dwarf", "Elliott", "Pierre", "Sandy", "Shane", "Sebastian" ],
+        "Dislike": [ "Vincent", "Abigail", "Haley", "Jas", "Sam" ],
+    },
+}

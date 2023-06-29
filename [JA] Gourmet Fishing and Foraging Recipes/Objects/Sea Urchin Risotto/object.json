@@ -1,0 +1,37 @@
+{
+	"Name": "Sea Urchin Risotto",
+	"Description": "Rich and creamy, with a seafoody undertaste.",
+	"Category": "Cooking",
+	"Edibility": 34,
+	"Price": 410,
+	"IsColored": false,
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Sea Urchin",
+            "Count": 1,
+        },
+        {
+            "Object": "Oil",
+            "Count": 1,
+        }, 
+         {
+            "Object": "Rice",
+            "Count": 1,
+        },
+     ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 1200,  
+  },
+     "GiftTastes":
+    {
+        "Love": [ "Leo" ],
+        "Like": [ "Demetrius", "Linus", "Elliot", "Willy", "Pam", "Sebastian" ],
+        "Neutral": [ "Maru", "Krobus", "Leah", "Harvey", "Robin", "Wizard", "Gus", "Jodi", "Sam", "Emily", "Alex", "Caroline", "Clint", "Dwarf", "George", "Jas", "Kent", "Lewis", "Marnie", "Penny", "Sandy", "Shane", "Vincent", "Abigail" ],
+        "Dislike": [ "Pierre", "Evelyn", "Haley"  ],
+    },
+}

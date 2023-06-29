@@ -1,0 +1,10 @@
+{
+	"Name": "[JA] Gourmet Fishing and Foraging Recipes",
+	"Author": "StarAmy",
+	"Version": "1.0.0",
+	"Description": "Adds a handful of cooking recipes featuring under-used vanilla ingredients.",
+	"UniqueID": "StarAmy.GourmetRecipes",
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

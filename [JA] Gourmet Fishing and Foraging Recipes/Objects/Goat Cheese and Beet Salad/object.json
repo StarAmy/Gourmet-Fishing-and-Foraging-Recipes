@@ -1,0 +1,37 @@
+{
+	"Name": "Goat Cheese and Beet Salad",
+	"Description": "Healthy and full of flavor.",
+	"Category": "Cooking",
+	"Edibility": 82,
+	"Price": 710,
+	"IsColored": false,
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Goat Cheese",
+            "Count": 1,
+        },
+        {
+            "Object": "Beet",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Kale",
+            "Count": 1,
+        },
+     ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 2750,  
+  },
+     "GiftTastes":
+    {
+        "Love": [ "Leah", "Robin", "Evelyn",  ],
+        "Like": [ "Maru", "Krobus", "Leo", "Willy", "Linus", "Wizard", "Gus", "Jodi", "Demetrius", "Emily", "Alex", "Caroline", "Clint", "Dwarf", "Elliott", "George", "Kent", "Lewis", "Marnie", "Pam", "Penny", "Pierre", "Sandy", "Shane" ],
+        "Neutral": [  "Abigail", "Haley", "Sam"],
+        "Dislike": [ "Harvey", "Vincent", "Sebastian", "Jas" ],
+    },
+}

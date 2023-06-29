@@ -1,0 +1,56 @@
+{
+	"Name": "BBQ Oysters",
+	"Description": "Sure to be a hit in any beach town.",
+	"Category": "Cooking",
+	"Edibility": 28,
+	"Price": 290,
+	"IsColored": false,
+    "EdibleBuffs": 
+         {
+            "Farming": 0,
+            "Fishing": 1,
+            "Mining": 0,
+            "Luck": 0,
+            "Duration": 0,
+            "Foraging": 0,
+            "MaxStamina": 0,
+            "MagnetRadius": 0,
+            "Speed": 0,
+            "Defense": 0,
+            "Attack": 0,
+        },
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Oyster",
+            "Count": 1,
+        },
+        {
+            "Object": "Tomato",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Hot Pepper",
+            "Count": 1,
+        }, 
+        {
+            "Object": "Sugar",
+            "Count": 1,
+        }, 
+     ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 1200,  
+  },
+     "GiftTastes":
+    {
+        "Love": [ "Demetrius", "Elliott" ],
+        "Like": [ "Leo", "Willy", "Sebastian", "Linus", "Pam"],
+        "Neutral": [ "Leah", "Harvey", "Robin", "Wizard", "Gus", "Jodi", "Maru", "Krobus", "Emily", "Alex", "Caroline", "Clint", "Dwarf", "George", "Kent", "Lewis", "Marnie", "Penny", "Sandy", "Shane" ],
+        "Dislike": [ "Sam", "Vincent", "Abigail", "Jas", "Evelyn", "Pierre"],
+        "Hate": [ "Haley" ],
+    },
+}

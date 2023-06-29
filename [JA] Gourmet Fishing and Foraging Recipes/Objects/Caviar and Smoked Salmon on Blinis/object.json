@@ -1,0 +1,45 @@
+{
+	"Name": "Caviar and Smoked Salmon on Blinis",
+	"Description": "A cruncy, salty treat.",
+	"Category": "Cooking",
+	"Edibility": 105,
+	"Price": 875,
+	"IsColored": false,
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Salmon",
+            "Count": 1,
+        },
+        {
+            "Object": "Caviar",
+            "Count": 1,
+        },
+        {
+            "Object": "Oil",
+            "Count": 1,
+        },
+        {
+            "Object": "Wheat Flour",
+            "Count": 1,
+        },
+        {
+            "Object": -5,
+            "Count": 1,
+        }, 
+     ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 1200,  
+  },
+     "GiftTastes":
+    {
+        "Love": [ "Demetrius", "Elliott"  ],
+        "Like": [ "Leah", "Harvey", "Linus", "Leo", "Willy", "Pam" ],
+        "Neutral": [ "Abigail", "Maru", "Krobus", "Robin", "Wizard", "Gus", "Jodi", "Sam", "Emily", "Alex", "Caroline", "Clint", "Dwarf", "George", "Kent", "Lewis", "Marnie", "Penny", "Sandy", "Shane" ],
+        "Dislike": [ "Jas", "Vincent", "Haley", "Sebastian", "Evelyn", "Pierre" ],
+    },
+}

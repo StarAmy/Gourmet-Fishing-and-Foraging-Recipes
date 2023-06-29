@@ -1,0 +1,52 @@
+{
+	"Name": "Shrimp and Grits",
+	"Description": "A rich, comforting dish combining land and sea.",
+	"Category": "Cooking",
+	"Edibility": 38,
+	"Price": 310,
+	"IsColored": false,
+    "EdibleBuffs": 
+         {
+            "Farming": 1,
+            "Fishing": 1,
+            "Mining": 0,
+            "Luck": 0,
+            "Duration": 0,
+            "Foraging": 0,
+            "MaxStamina": 0,
+            "MagnetRadius": 0,
+            "Speed": 0,
+            "Defense": 0,
+            "Attack": 0,
+        },
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Shrimp",
+            "Count": 1,
+        },
+        {
+            "Object": "Corn",
+            "Count": 1,
+        },
+        {
+            "Object": "Oil",
+            "Count": 1,
+        },  
+     ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 1200,  
+  },
+     "GiftTastes":
+    {
+        "Love": [ "Willy" ],
+        "Like": [ "Demetrius", "Linus", "Elliott", "Leo", "Pam", "Sebastian"],
+        "Neutral": [ "Maru", "Krobus", "Leah", "Harvey", "Robin", "Wizard", "Gus", "Jodi", "Emily", "Alex", "Caroline", "Clint", "Dwarf", "George", "Kent", "Lewis", "Marnie", "Penny", "Sandy", "Shane" ],
+        "Dislike": [ "Evelyn", "Haley", "Vincent", "Abigail", "Jas", "Sam" ],
+        "Hate": [ "Pierre" ],
+    },
+}

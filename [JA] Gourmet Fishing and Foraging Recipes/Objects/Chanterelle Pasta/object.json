@@ -1,0 +1,37 @@
+{
+	"Name": "Chanterelle Pasta",
+	"Description": "A delicate and nutty fall dish.",
+	"Category": "Cooking",
+	"Edibility": 45,
+	"Price": 360,
+	"IsColored": false,
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Chanterelle",
+            "Count": 1,
+        },
+        {
+            "Object": -5,
+            "Count": 1,
+        }, 
+        {
+            "Object": "Wheat Flour",
+            "Count": 1,
+        },
+     ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 1200,  
+  },
+     "GiftTastes":
+    {
+        "Love": [ "Harvey"  ],
+        "Like": [ "Leah", "Linus" ],
+        "Neutral": [ "Maru", "Robin", "Gus", "Demetrius", "Emily", "Evelyn", "Alex", "Clint", "George", "Kent", "Lewis", "Marnie", "Pam", "Penny", "Sandy", "Abigail" ],
+        "Dislike": [ "Dwarf", "Elliott", "Caroline", "Jas", "Jodi", "Haley", "Krobus", "Leo", "Shane", "Vincent", "Sebastian", "Sam", "Pierre", "Wizard", "Willy" ],
+    },
+}

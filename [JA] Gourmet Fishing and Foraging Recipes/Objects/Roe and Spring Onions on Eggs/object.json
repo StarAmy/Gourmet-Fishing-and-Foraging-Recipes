@@ -1,0 +1,37 @@
+{
+	"Name": "Roe and Spring Onions on Eggs",
+	"Description": "A flavorful twist on plain eggs.",
+	"Category": "Cooking",
+	"Edibility": 26,
+	"Price": 350,
+	"IsColored": false,
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Roe",
+            "Count": 1,
+        },
+        {
+            "Object": "Spring Onion",
+            "Count": 1,
+        }, 
+        {
+            "Object": -5,
+            "Count": 1,
+        }, 
+     ],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 1200,  
+  },
+     "GiftTastes":
+    {
+        "Love": [ "Harvey" ],
+        "Like": [ "Leah", "Linus" ],
+        "Neutral": [ "Maru", "Robin", "Wizard", "Gus", "Jodi", "Sam", "Demetrius", "Emily", "Evelyn", "Alex", "Caroline", "Clint", "Dwarf", "Elliott", "George", "Jas", "Kent", "Lewis", "Marnie", "Pam", "Penny", "Pierre", "Sandy", "Shane", "Vincent", "Abigail", "Haley" ],
+        "Dislike": [ "Krobus", "Leo", "Willy", "Sebastian" ],
+    }, 
+}
